@@ -15,7 +15,12 @@ The database used is publicly available on the Espírito Santo state portal: htt
 
 # What files does this repository contain?
 - Bibliography → This folder contains the bibliography that justifies the reasoning of this repository.
-- COVID.ipynb → This file contains the cleaning and analysis of the dataset. In turn, it generates a file called "to_model.csv" which will be used for the ML models.
+- data_to_clean.ipynb → This file contains the cleaning of the dataset. In turn, it generates a file called "to_analize.csv" which will be used for the data analysis.
+- data_to_analize.ipynb → This file contains the analysis of the dataset. 
+- data_to_model.ipynb → This file contains the building of a Logistical Regression model.
+
+# To be considered:
+The files used for the creation of the logistic regression model can be downloaded from: https://drive.google.com/drive/folders/1St5oV7kom0i6YTKbFrPcibu4TVabgnwO?usp=sharing
 
 # References
 - Hojo de Souza FS, Hojo-Souza NS, Batista dos Santos E, da Silva CM and Guidoni DL: "Predicting the disease outcome in COVID-19 positive patients
